@@ -1,0 +1,33 @@
+/* Variables */
+$color-Purple: hsl(263, 55%, 52%);
+$color-DarkGrayBlue: hsl(217, 19%, 35%);
+$color-DarkBlackBlue: hsl(219, 29%, 14%);
+$color-White: hsl(0, 0%, 100%);
+
+$color-LightGray: hsl(0, 0%, 81%);
+$color-LightGrayBlue: hsl(210, 46%, 95%);
+
+$verified: hsla(0,0%,100%,.5);
+$verifiedI:hsla(217, 19%, 35%,.7);
+$paragraph: hsla(0,0%,100%,.7);
+$paragraphI: hsla(219, 29%, 14%,.7);
+
+$font: 'Barlow Semi Condensed', sans-serif;
+
+/* Imports */
+@import "box-container";
+@import "box";
+@import "user";
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+
+/* Base */
+body{
+    font-family: $font;
+    font-size: 13px;
+
+    background-color: $color-LightGrayBlue;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
