@@ -1,0 +1,17 @@
+.dark{
+    &__name{
+        color: $color-DarkGrayBlue;
+    }
+
+    &__verified{
+        color: $verifiedI;
+    }
+
+    &__bold{
+        color: $color-DarkGrayBlue;
+    }
+
+    &__paragraph{
+        color: $paragraphI;
+    }
+}

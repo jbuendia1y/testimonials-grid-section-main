@@ -23,6 +23,8 @@
 
 @media screen and (min-width:1440px){
     .box-container{
-        width: 80%;
+        grid-template-columns: repeat(4,24%);
+        width: 75%;
+        margin: auto;
     }
 }

@@ -7,10 +7,13 @@ $color-White: hsl(0, 0%, 100%);
 $color-LightGray: hsl(0, 0%, 81%);
 $color-LightGrayBlue: hsl(210, 46%, 95%);
 
-$verified: hsla(0,0%,100%,.5);
-$verifiedI:hsla(217, 19%, 35%,.7);
 $paragraph: hsla(0,0%,100%,.7);
-$paragraphI: hsla(219, 29%, 14%,.7);
+$verified: hsla(0,0%,100%,.5);
+
+$verifiedI:hsla(217, 19%, 35%,.5);
+$paragraphI: hsla(217, 19%, 35%,.7);
+
+$color-BorderImg: hsl(263, 43%, 63%);
 
 $font: 'Barlow Semi Condensed', sans-serif;
 
@@ -18,6 +21,7 @@ $font: 'Barlow Semi Condensed', sans-serif;
 @import "box-container";
 @import "box";
 @import "user";
+@import "dark";
 
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
 
@@ -31,3 +35,13 @@ body{
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+
+@media screen and (min-width:1440px){
+    body{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
